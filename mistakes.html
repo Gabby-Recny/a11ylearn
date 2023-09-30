@@ -1,15 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Learn about desserts</title>
-    <style>
-      a:focus {
-        outline: none;
-      }
-    </style>
   </head>
   <body
     class="bg-repeat object-contain bg-opacity-20 bg-[url('https://ideasparalaclase.com/wp-content/uploads/2017/08/Black-and-white-Polka-Dot-Seamless-Pattern-Paint-Stain-Abstract-600x600.jpeg')]"
@@ -18,8 +13,8 @@
       class="bg-opacity-95 min-h-1/3 bg-blue-100 flex flex-col justify-evenly items-center flex-col-reverse md:flex-row p-6 gap-6 md:gap-12"
     >
       <div class="flex flex-col gap-4 md:ml-6">
-        <p class="text-6xl md:text-left text-center">What's for dessert?</p>
-        <p class="italic text-slate-400">
+        <h1 class="text-6xl md:text-left text-center">What's for dessert?</h1>
+        <h2 class="italic text-slate-400">
           This page has several mistakes which could impact both its
           accessibility and usability! Check out the README in the
           <a
@@ -28,11 +23,12 @@
             >Github repository</a
           >
           to get started.
-        </p>
+        </h2>
       </div>
       <img
         class="object-cover w-1/2 rounded-full"
         src="https://upload.wikimedia.org/wikipedia/commons/5/56/Chocolate_cupcakes.jpg"
+        alt="Five chocolate cupcakes with rainbow sprinkles arranged in a circle. The front facing cupcake has a bite taken out to show delicious texture."
       />
     </header>
 
@@ -41,7 +37,7 @@
         <h2 class="text-4xl border-b-4 mb-4 border-pink-400">
           History of desserts
         </h2>
-        <p class="italic mb-4 text-slate-400">
+        <p>
           Dessert foods have a rich history, spanning from ancient civilizations
           to modern times. From the ancient Egyptians' honey and fruit
           concoctions, to the intricate pastries of France and gelato
@@ -87,7 +83,7 @@
         <h2 class="text-4xl border-b-4 mb-4 border-pink-400">
           Types of desserts
         </h2>
-        <p class="italic mb-4 text-slate-400">
+        <p>
           Desserts come in various forms and flavors, ranging from sweet to
           savory. Whether it's a classic apple pie or a creamy cheesecake,
           desserts are irresistible delights that are enjoyed by people of all
@@ -109,11 +105,13 @@
           and found that the following cakes were the most popular:
         </p>
         <div class="flex flex-col my-4">
-          <p>1. Chocolate</p>
-          <p>2. Red velvet</p>
-          <p>3. Banana</p>
-          <p>4. Vanilla</p>
-          <p>5. Pistachio</p>
+        <ol>
+          <li>1. Chocolate</li>
+          <li>2. Red velvet</li>
+          <li>3. Banana</li>
+          <li>4. Vanilla</li>
+          <li>5. Pistachio</li>
+        </ol>
         </div>
 
         <h3 class="text-2xl mb-4 mt-6 border-b-2 border-pink-200">Cookies</h3>
@@ -159,7 +157,7 @@
         <h2 class="text-4xl border-b-4 mb-4 border-pink-400">
           Gallery of dessert disasters
         </h2>
-        <p class="italic mb-4 text-slate-400">
+        <p>
           Dessert doesn't always go sweetly! Check out these hilarious mishaps,
           and then maybe even try to make some of your own!
         </p>
@@ -169,6 +167,7 @@
             <img
               class="rounded-t-3xl h-40 w-full object-contain bg-black"
               src="https://tscpl.org/wp-content/uploads/2015/04/cookiehero.png.png"
+              alt="Two photos of cookie monster themed desserts with realistic blue frosting and cookies."
             />
             <div class="p-4 flex flex-col gap-2">
               <h3 class="text-2xl">Help, I'm melting!</h3>
@@ -184,6 +183,7 @@
             <img
               class="rounded-t-3xl h-40 w-full object-contain bg-black"
               src="https://www.wayofcats.com/blog/wp-content/uploads/2009/10/ifixedit.jpg"
+              alt="Meme of kitten putting paw on cookie dough balls. The kitten is saying 'This one was missing the kitten hair, but I have fixed it for you.' Then the kitten says 'You may bake them now..."
             />
             <div class="p-4 flex flex-col gap-2">
               <h3 class="text-2xl">This can't be hygenic</h3>
@@ -199,6 +199,7 @@
             <img
               class="rounded-t-3xl h-40 w-full object-contain bg-black"
               src="https://lvphotoblog.com/wp-content/uploads/2021/01/baking-fail.jpg"
+              alt="Model photo of a cake that looks like a circle of teddy bears and an attempt photo where a lot of the bears look sad."
             />
             <div class="p-4 flex flex-col gap-2">
               <h3 class="text-2xl">Oh, bother.</h3>
